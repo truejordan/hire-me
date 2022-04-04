@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hire-me/static/css/main.ecd2f7a1.css",
+    "main.js": "/hire-me/static/js/main.61897f9d.js",
+    "index.html": "/hire-me/index.html",
+    "main.ecd2f7a1.css.map": "/hire-me/static/css/main.ecd2f7a1.css.map",
+    "main.61897f9d.js.map": "/hire-me/static/js/main.61897f9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecd2f7a1.css",
+    "static/js/main.61897f9d.js"
+  ]
+}
