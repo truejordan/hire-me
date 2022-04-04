@@ -1,0 +1,9 @@
+@import "../StyleVariables/variables.scss";
+
+.page{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    transition: all 250ms ease-in;
+    background-color: $bgPurple; 
+}

@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Page from "./components/page";
+import Navbar from "./components/navbar";
+import Header from "./components/header";
+import Body from "./components/body";
+import SpiritLvl from "./components/spiritLvl";
+import Footer from "./components/footer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+	return (
+		<Page>
+			<Navbar />
+			<Header />
+			<Body />
+			<div className="body-container">
+            <SpiritLvl />
+			</div>
+			<Footer />
+		</Page>
+	);
 }
-
-export default App;

@@ -1,0 +1,193 @@
+.spirit-lvl {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: auto;
+  -webkit-filter: drop-shadow(-3px -3px 6px rgba(2, 2, 2, 0.25));
+          filter: drop-shadow(-3px -3px 6px rgba(2, 2, 2, 0.25));
+}
+
+.outer-casing {
+  background-color: #E4E4E4;
+  height: 378px;
+  width: 90px;
+  border-radius: 18px 0px 0px 18px;
+  -webkit-box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.inner-housing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 324px;
+  width: 63px;
+  background: #3e3d3d;
+  border-radius: 10px 0px 0px 10px;
+  -webkit-box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25), inset 4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(0, 0, 0, 0.25), inset 4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-left: auto;
+}
+
+.glass-tube {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 296px;
+  width: 49px;
+  border-radius: 10px 0px 0px 10px;
+  background: #B5EC1B;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-left: auto;
+  border: 1px solid #a4c054;
+  -webkit-box-shadow: -2px 4px 6px rgba(252, 252, 252, 0.31), -2px -4px 6px rgba(252, 252, 252, 0.31), inset -8px -4px 8px rgba(0, 0, 0, 0.25), inset 8px 4px 8px rgba(0, 0, 0, 0.25);
+          box-shadow: -2px 4px 6px rgba(252, 252, 252, 0.31), -2px -4px 6px rgba(252, 252, 252, 0.31), inset -8px -4px 8px rgba(0, 0, 0, 0.25), inset 8px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.bubble {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  position: relative;
+  top: 40%;
+  -webkit-animation-name: floating;
+          animation-name: floating;
+  -webkit-animation-duration: 4.95s;
+          animation-duration: 4.95s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes floating {
+  0% {
+    -webkit-transform: translateY(-12%);
+            transform: translateY(-12%);
+  }
+  50% {
+    -webkit-transform: translateY(-52%);
+            transform: translateY(-52%);
+  }
+  100% {
+    -webkit-transform: translateY(-12%);
+            transform: translateY(-12%);
+  }
+}
+
+@keyframes floating {
+  0% {
+    -webkit-transform: translateY(-12%);
+            transform: translateY(-12%);
+  }
+  50% {
+    -webkit-transform: translateY(-52%);
+            transform: translateY(-52%);
+  }
+  100% {
+    -webkit-transform: translateY(-12%);
+            transform: translateY(-12%);
+  }
+}
+
+.bubble-boddy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 29px;
+  height: 92px;
+  background-color: #B5EC1B;
+  border-radius: 14px;
+  -webkit-box-shadow: -6px -6px 6px rgba(255, 255, 255, 0.25), 6px 6px 6px rgba(255, 255, 255, 0.25), inset -4px -4px 9px rgba(115, 115, 115, 0.25), inset 4px 4px 9px rgba(96, 94, 94, 0.25);
+          box-shadow: -6px -6px 6px rgba(255, 255, 255, 0.25), 6px 6px 6px rgba(255, 255, 255, 0.25), inset -4px -4px 9px rgba(115, 115, 115, 0.25), inset 4px 4px 9px rgba(96, 94, 94, 0.25);
+}
+
+.bubble-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 18px;
+  height: 77px;
+  background: rgba(0, 0, 0, 0.53);
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  border-radius: 14px;
+  margin: auto;
+}
+
+.markings {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 153px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: visible;
+  top: -20%;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.marking-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 8px;
+}
+
+.line-marking {
+  width: 49px;
+  height: 3px;
+  background: #646464;
+}
+
+.shine {
+  position: fixed;
+  width: 14px;
+  height: 284px;
+  background: rgba(255, 255, 255, 0.33);
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  margin-top: auto;
+  margin-left: 26px;
+  margin-bottom: auto;
+}
+/*# sourceMappingURL=spiritLvl.css.map */

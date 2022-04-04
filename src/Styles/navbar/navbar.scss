@@ -1,0 +1,15 @@
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 5px #212020dc;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    width: 185px;
+    justify-content: space-between;
+    margin-right: 2vh;
+}

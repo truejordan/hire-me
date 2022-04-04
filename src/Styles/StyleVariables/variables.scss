@@ -1,0 +1,30 @@
+$bgPurple: #323243;
+$txtPastelPurple: #575873;
+$lgGrey: #E4E4E4;
+$lgGreen: #B5EC1B;
+$lgcontrast: #9898a2;
+$btnshellpurple: #00000022;
+
+// toggle
+/** sunny side **/
+$blue-background: #c2e9f6;
+$blue-border: #72cce3;
+$blue-color: #96dcee;
+$yellow-background: #fffaa8;
+$yellow-border: #f5eb71;
+/** dark side **/
+$indigo-background: #808fc7;
+$indigo-border: #5d6baa;
+$indigo-color: #6b7abb;
+$gray-border: #e8e8ea;
+$gray-dots: #e8e8ea;
+/** general **/
+$white: #fff;
+
+:export {
+    $bgPurple: #323243;
+    $txtPastelPurple: #575873;
+    $lgGrey: #E4E4E4;
+    $lgGreen: #B5EC1B;
+    $lgcontrast: #9898a2;
+}

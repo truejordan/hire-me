@@ -1,0 +1,17 @@
+/** sunny side **/
+/** dark side **/
+/** general **/
+.page {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
+  background-color: #323243;
+}
+/*# sourceMappingURL=page.css.map */

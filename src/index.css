@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Sarpanch;
+    background-color: #323243;
+    color: #575873;
+    
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.icon-container{
+    display: flex;
+    justify-content: space-between;
+    width: 125px;
+    padding: 7px;
+    align-items: center;
+}
+
+.icon-container h4{
+    /* align-self: center; */
+    color: #B5EC1B;
+    font-size: 12px;
+}
+
+
+.logo{
+    width: 30px;
+    /* height: 50spx; */
+}
+
+.title{
+    display: flex;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    align-self: center;
+    text-align: center;
+    letter-spacing: -0.05em;
+}
+.theo{
+    color: #17539F;
+}
+.do{
+    color: #6ABD9E;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+
+.body ol{
+    margin-left: 17vw;
+    margin-right: 17vw;
+}
+
+.body h3{
+    /* margin: 0; */
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: center;
+}
+
+.body li{
+    margin-bottom: 15px;
+    
+}
+
+.body li::marker{
+    color: #B5EC1B;
+}
+
+.body li a{
+    color: #B5EC1B;
+}
+.body li a:hover{
+    color: hotpink;
+}
+
+.teddy{
+    font-size: 50px;
+}
+
+.footer-container{
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: auto;
+}
+.footer-container small{
+    /* color: aquamarine; */
+    color: #575873;
+}
+
+.body-container{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 48vh;
+    /* overflow: scroll; */
 }

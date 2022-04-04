@@ -1,0 +1,79 @@
+@import "../StyleVariables/variables.scss";
+
+.toggle--checkbox {
+    display: none;
+}
+
+
+.toggle--container{
+    display: flex;
+    // margin-right: 30px;
+}
+
+.toggle--label {
+    width: 40px;
+    height: 20px;
+    background: $txtPastelPurple;
+    border-radius: 100px;
+    border: 3px solid $btnshellpurple;
+    display: flex;
+    position: relative;
+    transition: all 350ms ease-in;   
+}
+
+.toggle--label:before {
+    animation-name: reverse;
+    animation-duration: 350ms;
+    animation-fill-mode: forwards;
+    transition: all 350ms ease-in;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border: 3px solid $lgcontrast;
+    position: absolute;
+    border-radius: 82px;
+    background: $lgGrey;
+}
+
+@keyframes reverse {
+    0% {
+      left: 0px;
+    }
+    60% {
+      left: 5px;
+      width: 22px;
+    }
+    100% {
+      left: 19px;
+      width: 15px;
+    }
+  }
+ 
+.toggle--checkbox:checked + .toggle--label{
+    background: $blue-color;
+    border-color: $blue-border;
+}
+
+.toggle--checkbox:checked + .toggle--label:before {
+    background: $yellow-background;
+    border-color: $yellow-border;
+    animation-name: switch;
+    animation-duration: 350ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes switch {
+    0% {
+      left: 19px;
+      width: 15px;
+    }
+    60% {
+      left: 5px;
+      width: 22px;
+    }
+    100% {
+      left: 0px;
+    }
+  }
+
+
