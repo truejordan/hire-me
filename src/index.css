@@ -17,7 +17,6 @@ html, body {
 }
 
 .icon-container h4{
-    /* align-self: center; */
     color: #B5EC1B;
     font-size: 12px;
 }
@@ -25,7 +24,6 @@ html, body {
 
 .logo{
     width: 30px;
-    /* height: 50spx; */
 }
 
 .title{
@@ -48,6 +46,7 @@ html, body {
     flex-direction: column;
     align-self: center;
     align-items: center;
+    margin-bottom: auto;
 }
 
 .body ol{
@@ -87,19 +86,34 @@ html, body {
     display: flex;
     justify-content: center;
     padding: 20px;
-    margin-top: auto;
 }
 .footer-container small{
-    /* color: aquamarine; */
     color: #575873;
 }
 
 .body-container{
     display: flex;
-    position: absolute;
-    width: 100%;
-    align-content: center;
     flex-direction: column;
-    margin-top: 48vh;
-    /* overflow: scroll; */
+    /* margin-top: auto; */
+    margin: auto;
 }
+
+.main-tex{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    padding-bottom: 40px;
+}
+
+.compact{
+    display: flex;
+    min-height: 87vh;
+}
+
+.whole-page{
+    display: flex;
+    flex-direction: column;
+}
+
+
+

@@ -1,9 +1,11 @@
+/** sunny side **/
+/** dark side **/
+/** general **/
 .spirit-lvl {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   margin-left: auto;
   -webkit-filter: drop-shadow(-3px -3px 6px rgba(2, 2, 2, 0.25));
           filter: drop-shadow(-3px -3px 6px rgba(2, 2, 2, 0.25));
+  margin-top: auto;
 }
 
 .outer-casing {

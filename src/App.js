@@ -10,12 +10,18 @@ export default function App() {
 	return (
 		<Page>
 			<Navbar />
-			<Header />
-			<Body />
-			<div className="body-container">
-            <SpiritLvl />
+			<div className="whole-page">
+				<div className="compact">
+					<div className="main-tex">
+							<Header />
+							<Body />
+					</div>
+					<div className="body-container">
+						<SpiritLvl />
+					</div>
+				</div>
+				<Footer />
 			</div>
-			<Footer />
 		</Page>
 	);
 }
