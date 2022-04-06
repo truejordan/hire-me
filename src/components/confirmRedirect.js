@@ -6,6 +6,7 @@ const Confirm = () => {
         if (confirmBox) {
             window.location.href = "https://www.d3jordan.com/";
         }
+        console.log(confirmBox);
 }
 
     
