@@ -7,7 +7,6 @@
 
 .toggle--container{
     display: flex;
-    // margin-right: 30px;
 }
 
 .toggle--label {
@@ -33,6 +32,7 @@
     position: absolute;
     border-radius: 82px;
     background: $lgGrey;
+    cursor: pointer;
 }
 
 @keyframes reverse {
@@ -51,7 +51,7 @@
  
 .toggle--checkbox:checked + .toggle--label{
     background: $blue-color;
-    border-color: $blue-border;
+    border-color: $cloudBlue;
 }
 
 .toggle--checkbox:checked + .toggle--label:before {
@@ -60,6 +60,7 @@
     animation-name: switch;
     animation-duration: 350ms;
     animation-fill-mode: forwards;
+    cursor: pointer;
 }
 
 @keyframes switch {
@@ -75,5 +76,4 @@
       left: 0px;
     }
   }
-
 

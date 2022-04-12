@@ -41,6 +41,7 @@
   position: absolute;
   border-radius: 82px;
   background: #E4E4E4;
+  cursor: pointer;
 }
 
 @-webkit-keyframes reverse {
@@ -73,7 +74,7 @@
 
 .toggle--checkbox:checked + .toggle--label {
   background: #96dcee;
-  border-color: #72cce3;
+  border-color: #afe5f7;
 }
 
 .toggle--checkbox:checked + .toggle--label:before {
@@ -85,6 +86,7 @@
           animation-duration: 350ms;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+  cursor: pointer;
 }
 
 @-webkit-keyframes switch {

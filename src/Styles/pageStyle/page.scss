@@ -1,9 +1,17 @@
 @import "../StyleVariables/variables.scss";
 
+
 .page{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     transition: all 250ms ease-in;
-    background-color: $bgPurple; 
+    background-color: $bgPurple; // dark mode background
+}
+
+.page.light-theme{
+    background-color: $blue-border;
+    .btn-container{
+        background-color: $cloudBlue;
+    }
 }

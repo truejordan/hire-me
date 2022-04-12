@@ -1,12 +1,15 @@
-import React from "react"
+import React, {useContext} from "react"
+import "../Styles/index/index.css"
 import "../Styles/pageStyle/page.css"
+import { ModeContext} from "../context/ChangeMode"
 
-export default function Page(props){
+export default function Page({children}){
+
+    const {isLight} = useContext(ModeContext);
+
     return(
-        <div className="page">
-            {/* {props.before} */}
-            {props.children} 
-            {/* {props.after} */}
+        <div className={`page ${isLight ? 'light-theme' : ''}`}>
+            {children}
 	    </div>
     )
 }

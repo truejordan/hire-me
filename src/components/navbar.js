@@ -3,10 +3,12 @@ import Button from "./button";
 import reactLogo from "./images/D3j noglow lg.png"
 import "../Styles/navbar/navbar.css"
 import ToggleMode from "./toggle";
+// import {useState, useEffect} from 'react';
 
 
 
 export default function Navbar() {
+	// const [value, setValue] = useState(false);
 	return (
 		<header>
 			<nav className="nav-container">

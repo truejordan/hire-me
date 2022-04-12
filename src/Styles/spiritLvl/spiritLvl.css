@@ -2,10 +2,11 @@
 /** dark side **/
 /** general **/
 .spirit-lvl {
-  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-filter: drop-shadow(-3px -3px 6px rgba(2, 2, 2, 0.25));
           filter: drop-shadow(-3px -3px 6px rgba(2, 2, 2, 0.25));
-  margin-top: auto;
 }
 
 .outer-casing {
@@ -18,8 +19,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .inner-housing {

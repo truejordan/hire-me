@@ -1,0 +1,47 @@
+.body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: auto;
+}
+
+.body ol {
+  margin-left: 17vw;
+  margin-right: 17vw;
+}
+
+.body h3 {
+  margin-left: 19vw;
+  margin-right: 19vw;
+  text-align: center;
+}
+
+.body li {
+  margin-bottom: 15px;
+}
+
+.body li::marker {
+  color: #B5EC1B;
+}
+
+.body li a {
+  color: #B5EC1B;
+}
+
+.body li a:hover {
+  color: hotpink;
+}
+
+.teddy {
+  font-size: 50px;
+}
+/*# sourceMappingURL=body.css.map */

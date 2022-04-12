@@ -34,7 +34,9 @@
 
 .btn-container{
     // margin-right: 2vw;
-    background-color: #00000022;
+    background-color: #00000022; // dark mode
+    background-color: $btnshellpurple; // dark mode (do not use)
+    // background-color: $cloudBlue; // light mode
     border-radius: 8px;
     border: #951515;
     border-width: 10px;

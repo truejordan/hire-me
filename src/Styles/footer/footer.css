@@ -1,0 +1,16 @@
+.footer-container {
+  background-color: #1f1f1f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.footer-container small {
+  color: #575873;
+}
+/*# sourceMappingURL=footer.css.map */

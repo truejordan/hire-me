@@ -1,0 +1,53 @@
+/** sunny side **/
+/** dark side **/
+/** general **/
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Sarpanch;
+  background-color: #323243;
+  color: #575873;
+}
+
+.body-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  width: 90px;
+}
+
+.main-tex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: auto;
+  padding-bottom: 40px;
+}
+
+.compact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 87.1vh;
+  margin-bottom: auto;
+}
+
+.whole-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=index.css.map */

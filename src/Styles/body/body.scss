@@ -1,0 +1,38 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    margin-bottom: auto;
+}
+
+.body ol{
+    margin-left: 17vw;
+    margin-right: 17vw;
+}
+
+.body h3{
+    margin-left: 19vw;
+    margin-right: 19vw;
+    text-align: center;
+}
+
+.body li{
+    margin-bottom: 15px;
+    
+}
+
+.body li::marker{
+    color: #B5EC1B;
+}
+
+.body li a{
+    color: #B5EC1B;
+}
+.body li a:hover{
+    color: hotpink;
+}
+
+.teddy{
+    font-size: 50px;
+}

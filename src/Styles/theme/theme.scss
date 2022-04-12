@@ -1,0 +1,11 @@
+@import "../StyleVariables/variables.scss";
+
+.lightMode{
+    $background-color: $blue-border; // light mode background color
+    $btn-container-color: $cloudBlue; // light mode btn container background color
+}
+
+.darkMode{
+    $background-color: $bgPurple; // dark mode background color
+    $btn-container-color: $btnshellpurple; // dark mode btn container background color
+}
